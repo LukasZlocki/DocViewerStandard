@@ -1,0 +1,34 @@
+C:\1 DotNetProjects\DocViewerStandard\DocViewerStandard\obj\Debug\DocViewerStandard.csprojAssemblyReference.cache
+C:\1 DotNetProjects\DocViewerStandard\DocViewerStandard\obj\Debug\MainWindow.g.cs
+C:\1 DotNetProjects\DocViewerStandard\DocViewerStandard\obj\Debug\App.g.cs
+C:\1 DotNetProjects\DocViewerStandard\DocViewerStandard\obj\Debug\DocViewerStandard_MarkupCompile.cache
+C:\1 DotNetProjects\DocViewerStandard\DocViewerStandard\obj\Debug\DocViewerStandard_MarkupCompile.lref
+C:\1 DotNetProjects\DocViewerStandard\DocViewerStandard\obj\Debug\SettingsWindow.g.cs
+C:\1 DotNetProjects\DocViewerStandard\DocViewerStandard\bin\Debug\DocViewerStandard.exe.config
+C:\1 DotNetProjects\DocViewerStandard\DocViewerStandard\bin\Debug\DocViewerStandard.exe
+C:\1 DotNetProjects\DocViewerStandard\DocViewerStandard\bin\Debug\DocViewerStandard.pdb
+C:\1 DotNetProjects\DocViewerStandard\DocViewerStandard\obj\Debug\MainWindow.baml
+C:\1 DotNetProjects\DocViewerStandard\DocViewerStandard\obj\Debug\SettingsWindow.baml
+C:\1 DotNetProjects\DocViewerStandard\DocViewerStandard\obj\Debug\DocViewerStandard.g.resources
+C:\1 DotNetProjects\DocViewerStandard\DocViewerStandard\obj\Debug\DocViewerStandard.Properties.Resources.resources
+C:\1 DotNetProjects\DocViewerStandard\DocViewerStandard\obj\Debug\DocViewerStandard.csproj.GenerateResource.cache
+C:\1 DotNetProjects\DocViewerStandard\DocViewerStandard\obj\Debug\DocViewerStandard.csproj.CoreCompileInputs.cache
+C:\1 DotNetProjects\DocViewerStandard\DocViewerStandard\obj\Debug\DocViewerStandard.exe
+C:\1 DotNetProjects\DocViewerStandard\DocViewerStandard\obj\Debug\DocViewerStandard.pdb
+D:\NetProjects\DocViewerStandard\DocViewerStandard\bin\Debug\DocViewerStandard.exe.config
+D:\NetProjects\DocViewerStandard\DocViewerStandard\bin\Debug\DocViewerStandard.exe
+D:\NetProjects\DocViewerStandard\DocViewerStandard\bin\Debug\DocViewerStandard.pdb
+D:\NetProjects\DocViewerStandard\DocViewerStandard\obj\Debug\DocViewerStandard.csprojAssemblyReference.cache
+D:\NetProjects\DocViewerStandard\DocViewerStandard\obj\Debug\MainWindow.g.cs
+D:\NetProjects\DocViewerStandard\DocViewerStandard\obj\Debug\SettingsWindow.g.cs
+D:\NetProjects\DocViewerStandard\DocViewerStandard\obj\Debug\App.g.cs
+D:\NetProjects\DocViewerStandard\DocViewerStandard\obj\Debug\DocViewerStandard_MarkupCompile.cache
+D:\NetProjects\DocViewerStandard\DocViewerStandard\obj\Debug\DocViewerStandard_MarkupCompile.lref
+D:\NetProjects\DocViewerStandard\DocViewerStandard\obj\Debug\MainWindow.baml
+D:\NetProjects\DocViewerStandard\DocViewerStandard\obj\Debug\SettingsWindow.baml
+D:\NetProjects\DocViewerStandard\DocViewerStandard\obj\Debug\DocViewerStandard.g.resources
+D:\NetProjects\DocViewerStandard\DocViewerStandard\obj\Debug\DocViewerStandard.Properties.Resources.resources
+D:\NetProjects\DocViewerStandard\DocViewerStandard\obj\Debug\DocViewerStandard.csproj.GenerateResource.cache
+D:\NetProjects\DocViewerStandard\DocViewerStandard\obj\Debug\DocViewerStandard.csproj.CoreCompileInputs.cache
+D:\NetProjects\DocViewerStandard\DocViewerStandard\obj\Debug\DocViewerStandard.exe
+D:\NetProjects\DocViewerStandard\DocViewerStandard\obj\Debug\DocViewerStandard.pdb
