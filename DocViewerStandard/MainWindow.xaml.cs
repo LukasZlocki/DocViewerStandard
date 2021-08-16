@@ -2,6 +2,7 @@
 using DocViewerStandard.Services;
 using System;
 using System.Windows;
+using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 
@@ -37,6 +38,26 @@ namespace DocViewerStandard
         // Showing window with order data for implementation 
         private void btnShow_Click(object sender, RoutedEventArgs e)
         {
+            MainLoop();
+        }
+
+
+        #endregion
+
+        #region OnEnterHandler
+        private void OnKeyDownHandler(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Return)
+            {
+                MainLoop();
+            }
+        }
+
+        #endregion
+
+
+        private void MainLoop()
+        {
             // Object with name of the document 
             Document Instruction = new Document();
             // 
@@ -49,9 +70,6 @@ namespace DocViewerStandard
             // Show instruction on screen
             ShowInstructionOnScreen(Instruction);
         }
-
-
-        #endregion
 
         #region Preparing documents from file
 
@@ -143,12 +161,12 @@ namespace DocViewerStandard
         }
 
 
-     
+
+
+
+
 
         #endregion
-
-
-
 
     }
 }
