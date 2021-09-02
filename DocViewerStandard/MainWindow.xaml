@@ -31,17 +31,5 @@
 
         <TextBox x:Name="txtBoxID" TextAlignment="Center" FontSize="40" HorizontalAlignment="Right" Height="53" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" Width="201" Margin="0,0,127,41" KeyDown="OnKeyDownHandler" />
 
-
-
-
-        <Button x:Name="btnShow" Content="Szukaj instrukcji" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,10" Width="100" Height="100" Click="btnShow_Click">
-            <Button.Background>
-                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
-                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
-                    <GradientStop Color="#FF43CF24" Offset="0.584"/>
-                </LinearGradientBrush>
-            </Button.Background>
-        </Button>
-
     </Grid>
 </Window>

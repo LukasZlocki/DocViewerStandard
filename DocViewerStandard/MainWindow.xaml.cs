@@ -35,12 +35,6 @@ namespace DocViewerStandard
 
         #region Buttons
 
-        // Showing window with order data for implementation 
-        private void btnShow_Click(object sender, RoutedEventArgs e)
-        {
-            MainLoop();
-        }
-
 
         #endregion
 
@@ -55,7 +49,7 @@ namespace DocViewerStandard
 
         #endregion
 
-
+         
         private void MainLoop()
         {
             // Object with name of the document 
