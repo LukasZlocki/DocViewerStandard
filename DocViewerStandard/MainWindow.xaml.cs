@@ -29,12 +29,25 @@ namespace DocViewerStandard
 
             //Set global settings
             GlobalUserSettings.SetSettings(settings.GetUserSettings());
+
  
         }
 
 
         #region Buttons
 
+        private void btnLanguage_Click(object sender, RoutedEventArgs e)
+        {
+            if (btnLanguage.Content == FindResource("PL"))
+            {
+                btnLanguage.Content = FindResource("UA");
+            }
+            else
+            {
+                btnLanguage.Content = FindResource("PL");
+            }
+
+        }
 
         #endregion
 
@@ -161,6 +174,7 @@ namespace DocViewerStandard
 
 
         #endregion
+
 
     }
 }
