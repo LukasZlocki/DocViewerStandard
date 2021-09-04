@@ -12,6 +12,7 @@ namespace DocViewerStandard.Services
     class IoSettings
     {
         UserSettings userSettings = new UserSettings();
+        UserLanguage userLanguageSettings = new UserLanguage();
 
         // constructor
         public IoSettings()

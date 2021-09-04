@@ -15,9 +15,10 @@ namespace DocViewerStandard
     /// Version : 2.0 Standard 
     /// </summary>
     public partial class MainWindow : Window
-    { // user settings for matrix / documents paths
+    { 
+        // user settings for matrix / documents paths / language
         UserSettings GlobalUserSettings = new UserSettings();
-
+        UserLanguage userLanguageSettings = new UserLanguage();
 
         public MainWindow()
         {
@@ -29,8 +30,6 @@ namespace DocViewerStandard
 
             //Set global settings
             GlobalUserSettings.SetSettings(settings.GetUserSettings());
-
- 
         }
 
 
@@ -41,12 +40,15 @@ namespace DocViewerStandard
             if (btnLanguage.Content == FindResource("PL"))
             {
                 btnLanguage.Content = FindResource("UA");
+                userLanguageSettings.SetToUkraineLanguage();
             }
             else
             {
                 btnLanguage.Content = FindResource("PL");
+                userLanguageSettings.SetToPolishLanguage();
             }
-
+            // Refresh document on screen
+            MainLoop();
         }
 
         #endregion
@@ -112,6 +114,12 @@ namespace DocViewerStandard
         /// <param name="userSettings"> paths of document, its file extension </param>
         private void ShowThisDocumentOnScreen(string documentName, UserSettings userSettings)
         {
+            // if language set to UA additional file extansion need to be added to read Ukrainian docs.
+            if (userLanguageSettings.isPolishLanguageOn() == false)
+            {
+                documentName = documentName + "_UA";
+            }
+
             string fullPath = userSettings.DocumentFilesPath + "\\" + documentName + userSettings.DocumentFileExtension;
 
             try

@@ -30,7 +30,7 @@ namespace DocViewerStandard.Models
             this.IsUkraine = false;
         }
 
-        public void SetToUkraine()
+        public void SetToUkraineLanguage()
         {
             this.IsPolish = false;
             this.IsUkraine = true;
